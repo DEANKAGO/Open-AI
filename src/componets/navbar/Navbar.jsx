@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Login } from '../../componets';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/GPT-3.svg';
 import './navbar.css';
@@ -23,7 +24,7 @@ function Navbar() {
         </div>
       </div>
       <div className="gpt__navbar-sign">
-        <p>Sign In</p>
+        <p><a href="#login">Sign In</a></p>
         <button type="button">Sign Up</button>
       </div>
       <div className="gpt__navbar-menu">
